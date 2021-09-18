@@ -1,0 +1,29 @@
+* INFO
+[TRI] BASIC EXAMPLE -- PLANE STRESS W/ TRIANGULAR ELEMENTS
+
+* ANALYSIS TYPE
+Plane Stress
+
+* COORDINATES
+1    0.0   0.0
+2    1.0   0.0
+3    1.0   1.0
+4    0.0   1.0
+
+
+* ELEMENTS
+1  1     1 2 4
+2  1     2 3 4
+
+* SECTIONS
+1  26.0  0.3  1.0
+
+
+* TRACTION FORCES
+2 1   1.0 0.0
+
+* BOUNDARY
+1 1 0.0
+1 2 0.0
+4 1 0.0
+

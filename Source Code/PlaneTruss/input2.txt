@@ -1,0 +1,32 @@
+* INFO
+A truss example with distributed axial force
+[Ref] Logan, Problem 3.58 (page 162)
+
+* ANALYSIS TYPE
+Truss
+
+* COORDINATES
+1   0.0   0.0
+2   10.0  0.0
+
+
+* ELEMENTS
+1  1    1   2
+
+
+# in this example we don't need SECTIONS 
+* SECTIONS
+1  210e3   10
+
+
+
+* TRACTION FORCES
+1  1    100+5*x  0
+
+* BOUNDARY
+1  1  0.0
+1  2  0.0
+2  2  0.0
+
+
+
