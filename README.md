@@ -28,8 +28,4 @@ This repository is part of a set of FEM-related codes, where you can find more d
 
 ---
 
-> A complete handbook is provided for this toolbox, and both installation file and the source codes are uploaded on my GitHub account and the MathWorks File Exchange. The links are available in download section and teaching section below the corresponding courses. 
-
-<div class="row">
-    <embed src="Docs/Shahi-FEM-handbook.pdf" width="800px" height="1050px" />
-</div>
+> A complete <a  href="www.sshahi.com/assets/pdf/Shahi-FEM-handbook.pdf" target="_blank">handbook</a> is also provided in Docs folder.
