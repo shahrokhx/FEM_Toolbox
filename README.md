@@ -28,4 +28,4 @@ This repository is part of a set of FEM-related codes, where you can find more d
 
 ---
 
-> A complete <a  href="www.sshahi.com/assets/pdf/Shahi-FEM-handbook.pdf" target="_blank">handbook</a> is also provided in Docs folder.
+> A complete <a  href="https://www.sshahi.com/assets/pdf/Shahi-FEM-handbook.pdf" target="_blank">handbook</a> is also provided in Docs folder.
