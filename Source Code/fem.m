@@ -11,7 +11,7 @@
 % Homepage: www.sshahi.com
 % Email: shahi@gatech.edu
 %__________________________________________________________________________
-
+function fem()
 %% Initialization
 clc
 clear 

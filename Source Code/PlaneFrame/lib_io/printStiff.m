@@ -6,17 +6,17 @@ function printStiff(Solution,fid)
         nElem = size(Solution.data.ke_local,3);
         for i = 1 : nElem
             printLine(fid,96);
-            fprintf(fid,' lement No = %d \n',i);
+            fprintf(fid,' element No = %d \n',i);
             fprintf (fid,' - Local Stiffness Matrix: \n');
-            disp_mat(Solution.data.ke_local,1,fid)
+            disp_mat(Solution.data.ke_local(:,:,i),1,fid)
             printSLine(fid,96);
 
             fprintf (fid,' - Transformation Matrix: \n');
-            disp_mat(Solution.data.T6,2,fid)        
+            disp_mat(Solution.data.T6(:,:,i),2,fid)        
             printSLine(fid,96);
 
             fprintf (fid,' - GlobalStiffness Matrix: K=T`kT = \n');    
-            disp_mat(Solution.data.ke_global,3,fid)
+            disp_mat(Solution.data.ke_global(:,:,i),3,fid)
         end
         
         printDLine(fid);
